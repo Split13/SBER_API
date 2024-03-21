@@ -1,7 +1,5 @@
 package tests;
 
-
-import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
 import jdk.jfr.Description;
@@ -10,7 +8,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pojo.CreatePet;
 import pojo.SucCrePet;
-
 
 import java.util.HashMap;
 
